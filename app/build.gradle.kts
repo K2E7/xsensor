@@ -36,6 +36,8 @@ android {
 }
 
 dependencies {
+    implementation("com.google.android.gms:play-services-location:20.0.0")
+    implementation("com.google.android.gms:play-services-nearby:18.3.0")
     implementation("com.airbnb.android:lottie:5.2.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
